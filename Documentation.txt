@@ -52,6 +52,8 @@ Creation of App Tier Resources
 In this instance we will do the App Server Setup and DB Server Configuration. Execute the below commands;
 Install MySQL
 sudo yum install mysql -y
+sudo dnf install mariadb105-server -y
+
 
 Configure MySQL Database
 Connect to the database and perform basic configuration: Replace below info with your DB information
